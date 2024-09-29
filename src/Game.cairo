@@ -63,7 +63,6 @@ mod StoringCustomType {
             self.gameassert.write(gameassert);
         }
 
-
         fn get_person(self: @ContractState) -> Person {
             self.person.read()
         }
